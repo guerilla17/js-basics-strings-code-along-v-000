@@ -7,6 +7,12 @@ let welcomeMessage = "Welcome to Flatbook, " + currentUser + "!";
 
 let excitedWelcomeMessage = welcomeMessage.toUpperCase + currentUser.toUpperCase + "!";
 
+const firstInitial = currentUser[0];
+const restOfName = currentUser.slice(1);
+
+let shortGreeting = "Welcome, " + firstInitial 
+
+
 //let shortGreeting = "Welcome, " + 
 //     it("contains the first initial of the name stored in the 'currentUser' variable", () => {
 //       const firstInitial = currentUser[0];
