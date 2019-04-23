@@ -1,7 +1,7 @@
 // Write your code in this file!
 
 
-let currentUser = 'Gigi';
+let currentUser = "Gigi";
 
 let welcomeMessage = "Welcome to Flatbook, " + currentUser + "!";
 
