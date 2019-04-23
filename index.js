@@ -5,7 +5,7 @@ let currentUser = "Gigi";
 
 let welcomeMessage = "Welcome to Flatbook, " + currentUser + "!";
 
-let excitedWelcomeMessage = welcomeMessage.toUpperCase() + currentUser.toUpperCase + "!";
+let excitedWelcomeMessage = welcomeMessage.toUpperCase() + currentUser.toUpperCase() + "!";
 
 const firstInitial = currentUser[0];
 const restOfName = currentUser.slice(1);
